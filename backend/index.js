@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'https://autentication-dpyo.onrender.com',
+  origin: 'https://autentication-kappa.vercel.app/',
   credentials: true
 }));
 app.use(express.json());
